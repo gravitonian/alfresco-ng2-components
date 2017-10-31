@@ -20,7 +20,7 @@ import { Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, 
 import { FormControl, Validators } from '@angular/forms';
 import { Observable, Subject } from 'rxjs/Rx';
 import { SearchTermValidator } from './../forms/search-term-validator';
-import { SearchAutocompleteComponent } from './search-autocomplete.component';
+import { SearchComponent } from './search.component';
 
 @Component({
     selector: 'adf-search-control',
@@ -70,8 +70,8 @@ export class SearchControlComponent implements OnInit, OnDestroy {
     @ViewChild('searchInput', {})
     searchInput: ElementRef;
 
-    @ViewChild(SearchAutocompleteComponent)
-    liveSearchComponent: SearchAutocompleteComponent;
+    @ViewChild(SearchComponent )
+    liveSearchComponent: SearchComponent;
 
     @Input()
     liveSearchEnabled: boolean = true;

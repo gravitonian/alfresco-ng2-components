@@ -7,6 +7,7 @@
 @import '../src/components/toolbar/toolbar.component';
 @import '../src/components/pagination/pagination.component';
 @import '../src/components/info-drawer/info-drawer-layout.component';
+@import '../src/components/content-metadata/content-metadata.component';
 @import '../src/components/settings/host-settings.component';
 
 @mixin alfresco-core-theme($theme) {
@@ -20,4 +21,5 @@
     @include adf-pagination-theme($theme);
     @include adf-colors-theme($theme);
     @include adf-default-class($theme);
+    @include adf-content-metadata-theme($theme)
 }

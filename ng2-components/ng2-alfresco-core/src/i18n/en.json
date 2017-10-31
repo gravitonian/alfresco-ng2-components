@@ -40,6 +40,20 @@
             "BACK": "Back",
             "APPLY": "APPLY",
             "NOT_VALID": "Host not valid! http(s)://host|ip:port(/path)"
+        },
+        "METADATA": {
+            "BASIC": {
+                "NAME": "Name",
+                "TITLE": "Title",
+                "DESCRIPTION": "Description",
+                "AUTHOR": "Author",
+                "MIMETYPE": "Mimetype",
+                "SIZE": "Size",
+                "CREATOR": "Creator",
+                "CREATED_DATE": "Created Date",
+                "MODIFIER": "Modifier",
+                "MODIFIED_DATE": "Modified Date"
+            }
         }
     }
 }
